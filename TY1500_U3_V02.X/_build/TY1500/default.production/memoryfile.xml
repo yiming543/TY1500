@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <executable name="D:\yiming\00work\TY1500_U3_V01.X\out\TY1500\production\default-production.hex">
+    <memory name="program">
+      <units>words</units>
+      <length>8192</length>
+      <used>954</used>
+      <free>7238</free>
+    </memory>
+    <memory name="data">
+      <units>bytes</units>
+      <length>512</length>
+      <used>25</used>
+      <free>487</free>
+    </memory>
+  </executable>
+</project>
