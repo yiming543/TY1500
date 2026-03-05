@@ -1,0 +1,318 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1936 ]
+[d frameptr 6 ]
+"10 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 c:\PROGRA~1\MICROC~1\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"11 D:\yiming\00work\TY1500_U3_V01.X\LED.c
+[v _TurnSignals TurnSignals `(v  1 e 1 0 ]
+"41
+[v _PWM_TURN_ON PWM_TURN_ON `(v  1 e 1 0 ]
+"49
+[v _YLED_ALL_ON YLED_ALL_ON `(v  1 e 1 0 ]
+"55
+[v _YLED_ALL_OFF YLED_ALL_OFF `(v  1 e 1 0 ]
+"61
+[v _WLED_ALL_ON WLED_ALL_ON `(v  1 e 1 0 ]
+"66
+[v _WLED_ALL_OFF WLED_ALL_OFF `(v  1 e 1 0 ]
+"71
+[v _PWM_DRL PWM_DRL `(v  1 e 1 0 ]
+"76
+[v _PWM_POS PWM_POS `(v  1 e 1 0 ]
+"81
+[v _PWM_TURN_LIGHT PWM_TURN_LIGHT `(v  1 e 1 0 ]
+"86
+[v _PWM_ALL_OFF PWM_ALL_OFF `(v  1 e 1 0 ]
+"91
+[v _DRL_ON DRL_ON `(v  1 e 1 0 ]
+"107
+[v _POS_ON POS_ON `(v  1 e 1 0 ]
+"139
+[v _ALL_LED_OFF ALL_LED_OFF `(v  1 e 1 0 ]
+"61 D:\yiming\00work\TY1500_U3_V01.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"64 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\epwm1.c
+[v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
+"90
+[v _EPWM1_LoadDutyValue EPWM1_LoadDutyValue `(v  1 e 1 0 ]
+"50 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"74
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"62 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+[s S132 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508 C:/Users/t00904/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc/pic16f1936.h
+[u S141 . 1 `S132 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES141  1 e 1 @13 ]
+[s S155 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"570
+[u S164 . 1 `S155 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES164  1 e 1 @14 ]
+[s S331 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"653
+[u S340 . 1 `S331 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES340  1 e 1 @17 ]
+"1017
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"1037
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1057
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S353 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"1078
+[s S361 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S365 . 1 `S353 1 . 1 0 `S361 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES365  1 e 1 @28 ]
+"1222
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1284
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1346
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1408
+[v _TRISE TRISE `VEuc  1 e 1 @144 ]
+[s S286 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1617
+[s S295 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S300 . 1 `S286 1 . 1 0 `S295 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES300  1 e 1 @149 ]
+"1728
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1787
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1845
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2187
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S43 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"2204
+[u S52 . 1 `S43 1 . 1 0 ]
+[v _LATAbits LATAbits `VES52  1 e 1 @268 ]
+"2249
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2311
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S22 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2328
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _LATCbits LATCbits `VES31  1 e 1 @270 ]
+"2373
+[v _LATE LATE `VEuc  1 e 1 @272 ]
+"2666
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3015
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"3071
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3129
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3696
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3766
+[v _WPUE WPUE `VEuc  1 e 1 @528 ]
+"4162
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+"4182
+[v _CCPR1H CCPR1H `VEuc  1 e 1 @658 ]
+"4202
+[v _CCP1CON CCP1CON `VEuc  1 e 1 @659 ]
+"4284
+[v _PWM1CON PWM1CON `VEuc  1 e 1 @660 ]
+"4351
+[v _ECCP1AS ECCP1AS `VEuc  1 e 1 @661 ]
+"4468
+[v _PSTR1CON PSTR1CON `VEuc  1 e 1 @662 ]
+[s S209 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 C3TSEL0 1 0 :1:4 
+`uc 1 C3TSEL1 1 0 :1:5 
+`uc 1 C4TSEL0 1 0 :1:6 
+`uc 1 C4TSEL1 1 0 :1:7 
+]
+"4892
+[s S218 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 C3TSEL 1 0 :2:4 
+`uc 1 C4TSEL 1 0 :2:6 
+]
+[u S223 . 1 `S209 1 . 1 0 `S218 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES223  1 e 1 @670 ]
+"8074
+[v _PLLR PLLR `VEb  1 e 0 @1238 ]
+"93 D:\yiming\00work\TY1500_U3_V01.X/LED.h
+[v _fTEST fTEST `a  1 e 1 0 ]
+"94
+[v _fWhite fWhite `a  1 e 1 0 ]
+"61 D:\yiming\00work\TY1500_U3_V01.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"132
+} 0
+"50 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"74
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"78
+} 0
+"62 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"77
+} 0
+"55 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"60 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"72
+} 0
+"64 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\epwm1.c
+[v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"41 D:\yiming\00work\TY1500_U3_V01.X\LED.c
+[v _PWM_TURN_ON PWM_TURN_ON `(v  1 e 1 0 ]
+{
+"47
+} 0
+"107
+[v _POS_ON POS_ON `(v  1 e 1 0 ]
+{
+"121
+} 0
+"76
+[v _PWM_POS PWM_POS `(v  1 e 1 0 ]
+{
+"79
+} 0
+"91
+[v _DRL_ON DRL_ON `(v  1 e 1 0 ]
+{
+"105
+} 0
+"49
+[v _YLED_ALL_ON YLED_ALL_ON `(v  1 e 1 0 ]
+{
+"53
+} 0
+"61
+[v _WLED_ALL_ON WLED_ALL_ON `(v  1 e 1 0 ]
+{
+"64
+} 0
+"71
+[v _PWM_DRL PWM_DRL `(v  1 e 1 0 ]
+{
+"74
+} 0
+"139
+[v _ALL_LED_OFF ALL_LED_OFF `(v  1 e 1 0 ]
+{
+"143
+} 0
+"55
+[v _YLED_ALL_OFF YLED_ALL_OFF `(v  1 e 1 0 ]
+{
+"59
+} 0
+"66
+[v _WLED_ALL_OFF WLED_ALL_OFF `(v  1 e 1 0 ]
+{
+"69
+} 0
+"86
+[v _PWM_ALL_OFF PWM_ALL_OFF `(v  1 e 1 0 ]
+{
+"89
+} 0
+"90 D:\yiming\00work\TY1500_U3_V01.X\mcc_generated_files\epwm1.c
+[v _EPWM1_LoadDutyValue EPWM1_LoadDutyValue `(v  1 e 1 0 ]
+{
+[v EPWM1_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
+"97
+} 0
