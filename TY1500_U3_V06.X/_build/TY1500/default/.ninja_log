@@ -1,0 +1,19 @@
+# ninja log v7
+11	598	7902275904904456	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V01.X/mcc_generated_files/device_config.c.p1	ca415e8c664f4c9
+30	655	7902275905094447	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V01.X/mcc_generated_files/tmr2.c.p1	484f5e45e3998c10
+24	658	7902275905034445	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V01.X/mcc_generated_files/pin_manager.c.p1	f02b5ba1f46e81a5
+18	662	7902275904974445	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V01.X/mcc_generated_files/mcc.c.p1	d15bbe5e3bae17bf
+9	668	7902275904884482	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V01.X/main.c.p1	503572b154ad8096
+15	669	7902275904944466	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V01.X/mcc_generated_files/epwm1.c.p1	5830cacdc5d60b2a
+6	671	7902275904854439	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V01.X/LED.c.p1	721c607598f1ad1c
+671	2163	7902275911503816	D:/yiming/00work/TY1500_U3_V01.X/out/TY1500/default.elf	24e23870c44dea84
+82	1787	7944610465007146	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/device_config.c.p1	73f481c9bb2248cf
+47	1938	7944610464651166	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/main.c.p1	1a517e041fb27fce
+119	1973	7944610465381600	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/epwm1.c.p1	98fb1e44687fb342
+11	2087	7944610464183877	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/LED.c.p1	8df1fdfd4a4c02fe
+151	2103	7944610465674303	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/interrupt_manager.c.p1	1b92a8e7476de825
+175	2117	7944610465930748	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/mcc.c.p1	d96f6aa8c6014a4c
+206	2125	7944610466228815	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/pin_manager.c.p1	a93b92de9ec20dd4
+300	2136	7944610467178236	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/tmr2.c.p1	7cf778837a21c667
+255	2253	7944610466758338	CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/tmr0.c.p1	923713d208536992
+2253	6358	7944610486697516	D:/yiming/00work/TY1500_U3_V06.X/out/TY1500/default.elf	bb2e8fde2f9b7d87
