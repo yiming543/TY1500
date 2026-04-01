@@ -1,0 +1,304 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/out/TY1500/default.elf"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"include",
+			"target_link_options",
+			"TY1500_default_link_rule",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			".generated/main.cmake",
+			"CMakeLists.txt",
+			".generated/rule.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 32,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 142,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 143,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 146,
+				"parent" : 4
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "TY1500_default_default_XC8_compile::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "TY1500_default_image_au7ZA5Mo::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,-Map=mem.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mcpu=16F1936",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--defsym=__MPLAB_BUILD=1",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fno-short-double",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fno-short-float",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-O0",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-fasmfile",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-maddrqual=ignore",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mwarn=-3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wa,-a",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-msummary=-psect,-class,+mem,-hex,-file",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-ginhx32",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--data-init",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-keep-startup",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-osccal",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-resetbits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-save-resetbits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-download",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mno-stackcall",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mdefault-config-bits",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-std=c99",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-gdwarf-3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mstack=compiled:auto:auto",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mrom=default",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mram=default,320-32f",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--memorysummary,memoryfile.xml",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "TY1500_default_image_au7ZA5Mo",
+	"nameOnDisk" : "default.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Object Libraries",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/LED.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/main.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/device_config.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/epwm1.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/interrupt_manager.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/mcc.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/pin_manager.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/tmr0.c.p1",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "D:/yiming/00work/TY1500_U3_V06.X/_build/TY1500/default/CMakeFiles/TY1500_default_default_XC8_compile.dir/D_/yiming/00work/TY1500_U3_V06.X/mcc_generated_files/tmr2.c.p1",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
