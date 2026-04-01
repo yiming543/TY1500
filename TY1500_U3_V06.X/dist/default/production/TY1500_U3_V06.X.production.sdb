@@ -29,11 +29,11 @@ TURN_STEP_2 2
 TURN_STEP_3 3
 TURN_STEP_4 4
 ]
-"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
 [v ___fladd __fladd `(d  1 e 4 0 ]
-"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul8_16.c
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
 [v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
-"6 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\pic\__eeprom.c
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
 [v ___eecpymem __eecpymem `(v  1 e 1 0 ]
 "39
 [v ___memcpyee __memcpyee `(v  1 e 1 0 ]
@@ -119,25 +119,25 @@ TURN_STEP_4 4
 [v _check_welcome_light check_welcome_light `(v  1 e 1 0 ]
 "575
 [v _LED_main LED_main `(v  1 e 1 0 ]
-"67 D:\yiming\00work\TY1500_U3_V06.X\main.c
+"67 D:\yiming\04github\TY1500\TY1500_U3_V06.X\main.c
 [v _main main `(i  1 e 2 0 ]
-"64 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/epwm1.c
+"64 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/epwm1.c
 [v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
 "90
 [v _EPWM1_LoadDutyValue EPWM1_LoadDutyValue `(v  1 e 1 0 ]
-"52 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/interrupt_manager.c
+"52 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
-"50 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/mcc.c
+"50 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 "61
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 "75
 [v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
-"55 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/pin_manager.c
+"55 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 "99
 [v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
-"64 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
+"64 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 "87
 [v _TMR0_ReadTimer TMR0_ReadTimer `(uc  1 e 1 0 ]
@@ -149,7 +149,7 @@ TURN_STEP_4 4
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
 "125
 [v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
-"62 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr2.c
+"62 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 "79
 [v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
@@ -172,7 +172,7 @@ TURN_STEP_4 4
 `uc 1 PEIE 1 0 :1:6 
 `uc 1 GIE 1 0 :1:7 
 ]
-"374 C:/Users/t00904/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc/pic16f1936.h
+"374 C:/Users/t00904/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1936.h
 [s S241 . 1 `uc 1 . 1 0 :2:0 
 `uc 1 T0IF 1 0 :1:2 
 `uc 1 . 1 0 :2:3 
@@ -385,11 +385,11 @@ TURN_STEP_4 4
 [v _turn_fall_edge_cnt turn_fall_edge_cnt `uc  1 e 1 0 ]
 "29
 [v _fturn_off_600ms fturn_off_600ms `a  1 e 1 0 ]
-"58 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
+"58 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
 [v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
 "59
 [v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
-"67 D:\yiming\00work\TY1500_U3_V06.X\main.c
+"67 D:\yiming\04github\TY1500\TY1500_U3_V06.X\main.c
 [v _main main `(i  1 e 2 0 ]
 {
 "86
@@ -399,13 +399,13 @@ TURN_STEP_4 4
 {
 "54
 } 0
-"100 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr2.c
+"100 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr2.c
 [v _TMR2_WriteTimer TMR2_WriteTimer `(v  1 e 1 0 ]
 {
-[v TMR2_WriteTimer@timerVal timerVal `uc  1 p 1 wreg ]
-[v TMR2_WriteTimer@timerVal timerVal `uc  1 p 1 wreg ]
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
 "103
-[v TMR2_WriteTimer@timerVal timerVal `uc  1 p 1 0 ]
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 0 ]
 "104
 } 0
 "85
@@ -426,10 +426,10 @@ TURN_STEP_4 4
 "106
 [v _TMR2_LoadPeriodRegister TMR2_LoadPeriodRegister `(v  1 e 1 0 ]
 {
-[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 p 1 wreg ]
-[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 p 1 wreg ]
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
 "108
-[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 p 1 0 ]
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 0 ]
 "109
 } 0
 "111
@@ -439,13 +439,13 @@ TURN_STEP_4 4
 [v TMR2_HasOverflowOccured@status status `a  1 a 1 0 ]
 "121
 } 0
-"96 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
+"96 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
 [v _TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
 {
-[v TMR0_WriteTimer@timerVal timerVal `uc  1 p 1 wreg ]
-[v TMR0_WriteTimer@timerVal timerVal `uc  1 p 1 wreg ]
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
 "99
-[v TMR0_WriteTimer@timerVal timerVal `uc  1 p 1 0 ]
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 0 ]
 "100
 } 0
 "102
@@ -462,18 +462,18 @@ TURN_STEP_4 4
 [v _PWM_all_off PWM_all_off `(v  1 e 1 0 ]
 {
 } 0
-"99 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/pin_manager.c
+"99 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
 {
 "101
 } 0
-"125 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
+"125 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
 [v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
 {
 [v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
 "127
 } 0
-"50 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/mcc.c
+"50 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/mcc.c
 [v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
 {
 "59
@@ -483,27 +483,27 @@ TURN_STEP_4 4
 {
 "79
 } 0
-"62 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr2.c
+"62 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr2.c
 [v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
 {
 "77
 } 0
-"64 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
+"64 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
 [v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
 {
 "85
 } 0
-"55 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/pin_manager.c
+"55 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/pin_manager.c
 [v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
 {
 "97
 } 0
-"61 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/mcc.c
+"61 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/mcc.c
 [v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
 {
 "73
 } 0
-"64 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/epwm1.c
+"64 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/epwm1.c
 [v _EPWM1_Initialize EPWM1_Initialize `(v  1 e 1 0 ]
 {
 "88
@@ -580,98 +580,98 @@ TURN_STEP_4 4
 [v _yellow_to_white yellow_to_white `(v  1 e 1 0 ]
 {
 "220
-[v yellow_to_white@ii ii `uc  1 a 1 1 ]
+[v yellow_to_white@ii ii `uc  1 a 1 3 ]
 "217
-[v yellow_to_white@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v yellow_to_white@pwm_idx pwm_idx `c  1 a 1 4 ]
 "230
 } 0
 "306
 [v _yellow_seg4_forward yellow_seg4_forward `(v  1 e 1 0 ]
 {
 "310
-[v yellow_seg4_forward@ii ii `uc  1 a 1 1 ]
+[v yellow_seg4_forward@ii ii `uc  1 a 1 3 ]
 "307
-[v yellow_seg4_forward@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v yellow_seg4_forward@pwm_idx pwm_idx `c  1 a 1 4 ]
 "324
 } 0
 "379
 [v _yellow_seg4_backward yellow_seg4_backward `(v  1 e 1 0 ]
 {
 "383
-[v yellow_seg4_backward@ii ii `uc  1 a 1 1 ]
+[v yellow_seg4_backward@ii ii `uc  1 a 1 3 ]
 "380
-[v yellow_seg4_backward@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v yellow_seg4_backward@pwm_idx pwm_idx `c  1 a 1 4 ]
 "392
 } 0
 "285
 [v _yellow_seg3_forward yellow_seg3_forward `(v  1 e 1 0 ]
 {
 "289
-[v yellow_seg3_forward@ii ii `uc  1 a 1 1 ]
+[v yellow_seg3_forward@ii ii `uc  1 a 1 3 ]
 "286
-[v yellow_seg3_forward@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v yellow_seg3_forward@pwm_idx pwm_idx `c  1 a 1 4 ]
 "303
 } 0
 "363
 [v _yellow_seg3_backward yellow_seg3_backward `(v  1 e 1 0 ]
 {
 "367
-[v yellow_seg3_backward@ii ii `uc  1 a 1 1 ]
+[v yellow_seg3_backward@ii ii `uc  1 a 1 3 ]
 "364
-[v yellow_seg3_backward@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v yellow_seg3_backward@pwm_idx pwm_idx `c  1 a 1 4 ]
 "376
 } 0
 "266
 [v _yellow_seg2_forward yellow_seg2_forward `(v  1 e 1 0 ]
 {
 "271
-[v yellow_seg2_forward@ii ii `uc  1 a 1 1 ]
+[v yellow_seg2_forward@ii ii `uc  1 a 1 3 ]
 "267
-[v yellow_seg2_forward@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v yellow_seg2_forward@pwm_idx pwm_idx `c  1 a 1 4 ]
 "282
 } 0
 "345
 [v _yellow_seg2_backward yellow_seg2_backward `(v  1 e 1 0 ]
 {
 "349
-[v yellow_seg2_backward@ii ii `uc  1 a 1 1 ]
+[v yellow_seg2_backward@ii ii `uc  1 a 1 3 ]
 "346
-[v yellow_seg2_backward@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v yellow_seg2_backward@pwm_idx pwm_idx `c  1 a 1 4 ]
 "360
 } 0
 "247
 [v _yellow_seg1_forward yellow_seg1_forward `(v  1 e 1 0 ]
 {
 "252
-[v yellow_seg1_forward@ii ii `uc  1 a 1 1 ]
+[v yellow_seg1_forward@ii ii `uc  1 a 1 3 ]
 "248
-[v yellow_seg1_forward@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v yellow_seg1_forward@pwm_idx pwm_idx `c  1 a 1 4 ]
 "263
 } 0
 "233
 [v _white_fad_out white_fad_out `(v  1 e 1 0 ]
 {
 "237
-[v white_fad_out@ii ii `uc  1 a 1 1 ]
+[v white_fad_out@ii ii `uc  1 a 1 3 ]
 "234
-[v white_fad_out@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v white_fad_out@pwm_idx pwm_idx `c  1 a 1 4 ]
 "244
 } 0
 "327
 [v _tellow_seg1_backward tellow_seg1_backward `(v  1 e 1 0 ]
 {
 "331
-[v tellow_seg1_backward@ii ii `uc  1 a 1 1 ]
+[v tellow_seg1_backward@ii ii `uc  1 a 1 3 ]
 "328
-[v tellow_seg1_backward@pwm_idx pwm_idx `c  1 a 1 2 ]
+[v tellow_seg1_backward@pwm_idx pwm_idx `c  1 a 1 4 ]
 "342
 } 0
 "200
 [v _delay_us delay_us `(v  1 e 1 0 ]
 {
-[v delay_us@us us `c  1 p 1 wreg ]
-[v delay_us@us us `c  1 p 1 wreg ]
-[v delay_us@us us `c  1 p 1 0 ]
+[v delay_us@us us `c  1 a 1 wreg ]
+[v delay_us@us us `c  1 a 1 wreg ]
+[v delay_us@us us `c  1 a 1 1 ]
 "203
 } 0
 "206
@@ -743,18 +743,18 @@ TURN_STEP_4 4
 [v _PWM_DRL PWM_DRL `(v  1 e 1 0 ]
 {
 } 0
-"90 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/epwm1.c
+"90 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/epwm1.c
 [v _EPWM1_LoadDutyValue EPWM1_LoadDutyValue `(v  1 e 1 0 ]
 {
 [v EPWM1_LoadDutyValue@dutyValue dutyValue `us  1 p 2 0 ]
 "97
 } 0
-"52 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/interrupt_manager.c
+"52 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/interrupt_manager.c
 [v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
 {
 "63
 } 0
-"108 D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
+"108 D:\yiming\04github\TY1500\TY1500_U3_V06.X\mcc_generated_files/tmr0.c
 [v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
 {
 "122
