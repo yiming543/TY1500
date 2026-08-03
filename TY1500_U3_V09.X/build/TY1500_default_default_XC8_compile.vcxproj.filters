@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\LED.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files\device_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files\epwm1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files\interrupt_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files\mcc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files\pin_manager.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files\tmr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\yiming\00work\TY1500_U3_V06.X\mcc_generated_files\tmr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\yiming\00work\TY1500_U3_V06.X\cmake\TY1500\default\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8021F90D-7FF3-301D-9DCF-6FC0EEEFD9A0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
