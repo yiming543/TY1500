@@ -4832,13 +4832,12 @@ extern __bank0 unsigned char __resetbits;
 extern __bank0 __bit __powerdown;
 extern __bank0 __bit __timeout;
 # 28 "C:/Users/t00904/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\\pic\\include\\xc.h" 2 3
-# 54 "mcc_generated_files/pin_manager.h" 2
+# 55 "mcc_generated_files/pin_manager.h" 2
 # 349 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_Initialize (void);
 # 361 "mcc_generated_files/pin_manager.h"
 void PIN_MANAGER_IOC(void);
-# 49 "mcc_generated_files/pin_manager.c" 2
-
+# 50 "mcc_generated_files/pin_manager.c" 2
 
 
 

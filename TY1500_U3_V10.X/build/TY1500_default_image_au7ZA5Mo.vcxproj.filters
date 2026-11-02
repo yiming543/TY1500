@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\yiming\00work\TY1500_U3_V06.X\cmake\TY1500\default\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\LED.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\main.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\device_config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\epwm1.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\interrupt_manager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\mcc.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\pin_manager.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\tmr0.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="D:\yiming\00work\TY1500_U3_V06.X\build\TY1500_default_default_XC8_compile.dir\$(Configuration)\tmr2.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{26508632-C095-356A-9E0D-C8389690A7C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

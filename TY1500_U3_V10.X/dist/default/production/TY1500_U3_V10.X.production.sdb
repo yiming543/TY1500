@@ -1,0 +1,943 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1936 ]
+[d frameptr 6 ]
+"20 D:\yiming\00work\TY1500_U3_V10.X\LED.c
+[e E3112 . `uc
+WELCOME_STEP_0 0
+WELCOME_STEP_1 1
+WELCOME_STEP_2 2
+WELCOME_STEP_3 3
+WELCOME_STEP_4 4
+WELCOME_STEP_5 5
+WELCOME_STEP_6 6
+WELCOME_STEP_7 7
+WELCOME_STEP_8 8
+WELCOME_STEP_9 9
+WELCOME_STEP_10 10
+WELCOME_STEP_11 11
+WELCOME_STEP_12 12
+WELCOME_STEP_13 13
+WELCOME_STEP_14 14
+WELCOME_STEP_15 15
+WELCOME_STEP_16 16
+WELCOME_STEP_17 17
+WELCOME_STEP_18 18
+WELCOME_STEP_19 19
+WELCOME_STEP_20 20
+WELCOME_STEP_21 21
+WELCOME_STEP_22 22
+WELCOME_STEP_23 23
+]
+"27
+[e E3102 . `uc
+TURN_STEP_0 0
+TURN_STEP_1 1
+TURN_STEP_2 2
+TURN_STEP_3 3
+TURN_STEP_4 4
+TURN_STEP_5 5
+TURN_STEP_6 6
+TURN_STEP_7 7
+]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"34 D:\yiming\00work\TY1500_U3_V10.X\LED.c
+[v _clear_no_call_warning_message clear_no_call_warning_message `(v  1 e 1 0 ]
+"63
+[v _debounce_IO debounce_IO `(v  1 e 1 0 ]
+"92
+[v _turn_signals_state_update turn_signals_state_update `(v  1 e 1 0 ]
+"117
+[v _check_welcome_signal check_welcome_signal `(v  1 e 1 0 ]
+"128
+[v _all_yellow_led_turn_on all_yellow_led_turn_on `(v  1 e 1 0 ]
+"134
+[v _all_yellow_led_turn_off all_yellow_led_turn_off `(v  1 e 1 0 ]
+"140
+[v _all_white_led_turn_on all_white_led_turn_on `(v  1 e 1 0 ]
+"141
+[v _all_white_led_turn_off all_white_led_turn_off `(v  1 e 1 0 ]
+"144
+[v _P2_on P2_on `(v  1 e 1 0 ]
+"145
+[v _P2_off P2_off `(v  1 e 1 0 ]
+"147
+[v _PWM_POS PWM_POS `(v  1 e 1 0 ]
+"155
+[v _DRL_on DRL_on `(v  1 e 1 0 ]
+"177
+[v _POS_on POS_on `(v  1 e 1 0 ]
+"198
+[v _all_led_off all_led_off `(v  1 e 1 0 ]
+"208
+[v _is_white is_white `(a  1 e 1 0 ]
+"209
+[v _is_turn_signals is_turn_signals `(a  1 e 1 0 ]
+"210
+[v _is_test is_test `(a  1 e 1 0 ]
+"211
+[v _is_DRL is_DRL `(a  1 e 1 0 ]
+"212
+[v _is_POS is_POS `(a  1 e 1 0 ]
+"213
+[v _is_WELCOME is_WELCOME `(a  1 e 1 0 ]
+"216
+[v _tmr0_10ms_even tmr0_10ms_even `(v  1 e 1 0 ]
+"222
+[v _tmr2_4ms_even tmr2_4ms_even `(v  1 e 1 0 ]
+"233
+[v _tmr4_320us_even tmr4_320us_even `(v  1 e 1 0 ]
+"244
+[v _delay_us delay_us `(v  1 e 1 0 ]
+"250
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+"260
+[v _yellow_to_white yellow_to_white `(v  1 e 1 0 ]
+"277
+[v _white_fad_out white_fad_out `(v  1 e 1 0 ]
+"291
+[v _yellow_seg1_forward yellow_seg1_forward `(v  1 e 1 0 ]
+"307
+[v _yellow_seg2_forward yellow_seg2_forward `(v  1 e 1 0 ]
+"323
+[v _yellow_seg3_forward yellow_seg3_forward `(v  1 e 1 0 ]
+"341
+[v _yellow_seg4_forward yellow_seg4_forward `(v  1 e 1 0 ]
+"356
+[v _yellow_seg5_forward yellow_seg5_forward `(v  1 e 1 0 ]
+"374
+[v _yellow_seg6_forward yellow_seg6_forward `(v  1 e 1 0 ]
+"389
+[v _yellow_seg7_forward yellow_seg7_forward `(v  1 e 1 0 ]
+"407
+[v _yellow_seg1_backward yellow_seg1_backward `(v  1 e 1 0 ]
+"425
+[v _yellow_seg2_backward yellow_seg2_backward `(v  1 e 1 0 ]
+"440
+[v _yellow_seg3_backward yellow_seg3_backward `(v  1 e 1 0 ]
+"458
+[v _yellow_seg4_backward yellow_seg4_backward `(v  1 e 1 0 ]
+"473
+[v _yellow_seg5_backward yellow_seg5_backward `(v  1 e 1 0 ]
+"491
+[v _yellow_seg6_backward yellow_seg6_backward `(v  1 e 1 0 ]
+"506
+[v _yellow_seg7_backward yellow_seg7_backward `(v  1 e 1 0 ]
+"521
+[v _check_test_mode check_test_mode `(v  1 e 1 0 ]
+"530
+[v _check_POS_P2 check_POS_P2 `(v  1 e 1 0 ]
+"539
+[v _turn_on_turn_signals turn_on_turn_signals `(v  1 e 1 0 ]
+"615
+[v _check_welcome_light check_welcome_light `(v  1 e 1 0 ]
+"753
+[v _LED_main LED_main `(v  1 e 1 0 ]
+"84 D:\yiming\00work\TY1500_U3_V10.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"52 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"50 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"75
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+"55 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"99
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+"64 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"87
+[v _TMR0_ReadTimer TMR0_ReadTimer `(uc  1 e 1 0 ]
+"96
+[v _TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
+"102
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+"108
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"125
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"64 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+"87
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+"93
+[v _TMR2_StopTimer TMR2_StopTimer `(v  1 e 1 0 ]
+"99
+[v _TMR2_ReadTimer TMR2_ReadTimer `(uc  1 e 1 0 ]
+"108
+[v _TMR2_WriteTimer TMR2_WriteTimer `(v  1 e 1 0 ]
+"114
+[v _TMR2_LoadPeriodRegister TMR2_LoadPeriodRegister `(v  1 e 1 0 ]
+"119
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+"132
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+"136
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+"64 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+"88
+[v _TMR4_StartTimer TMR4_StartTimer `(v  1 e 1 0 ]
+"94
+[v _TMR4_StopTimer TMR4_StopTimer `(v  1 e 1 0 ]
+"100
+[v _TMR4_ReadTimer TMR4_ReadTimer `(uc  1 e 1 0 ]
+"109
+[v _TMR4_WriteTimer TMR4_WriteTimer `(v  1 e 1 0 ]
+"115
+[v _TMR4_LoadPeriodRegister TMR4_LoadPeriodRegister `(v  1 e 1 0 ]
+"120
+[v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
+"133
+[v _TMR4_SetInterruptHandler TMR4_SetInterruptHandler `(v  1 e 1 0 ]
+"137
+[v _TMR4_DefaultInterruptHandler TMR4_DefaultInterruptHandler `(v  1 e 1 0 ]
+[s S238 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"374 C:/Users/t00904/.mchp_packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8\pic\include\proc\pic16f1936.h
+[s S247 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S252 . 1 `S238 1 . 1 0 `S247 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES252  1 e 1 @11 ]
+[s S659 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"508
+[u S668 . 1 `S659 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES668  1 e 1 @13 ]
+[s S638 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"570
+[u S647 . 1 `S638 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES647  1 e 1 @14 ]
+[s S112 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"653
+[u S121 . 1 `S112 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES121  1 e 1 @17 ]
+[s S293 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR4IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TMR6IF 1 0 :1:3 
+`uc 1 CCP3IF 1 0 :1:4 
+`uc 1 CCP4IF 1 0 :1:5 
+`uc 1 CCP5IF 1 0 :1:6 
+]
+"771
+[u S301 . 1 `S293 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES301  1 e 1 @19 ]
+"801
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1017
+[v _TMR2 TMR2 `VEuc  1 e 1 @26 ]
+"1037
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+"1057
+[v _T2CON T2CON `VEuc  1 e 1 @28 ]
+[s S165 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"1078
+[s S173 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S177 . 1 `S165 1 . 1 0 `S173 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES177  1 e 1 @28 ]
+"1222
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1284
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1346
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1408
+[v _TRISE TRISE `VEuc  1 e 1 @144 ]
+[s S133 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1446
+[u S142 . 1 `S133 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES142  1 e 1 @145 ]
+[s S274 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 TMR4IE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 TMR6IE 1 0 :1:3 
+`uc 1 CCP3IE 1 0 :1:4 
+`uc 1 CCP4IE 1 0 :1:5 
+`uc 1 CCP5IE 1 0 :1:6 
+]
+"1564
+[u S282 . 1 `S274 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES282  1 e 1 @147 ]
+"1594
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S66 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1617
+[s S75 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S80 . 1 `S66 1 . 1 0 `S75 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES80  1 e 1 @149 ]
+"1728
+[v _WDTCON WDTCON `VEuc  1 e 1 @151 ]
+"1787
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1845
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"2187
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+[s S686 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"2204
+[u S695 . 1 `S686 1 . 1 0 ]
+[v _LATAbits LATAbits `VES695  1 e 1 @268 ]
+"2249
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2311
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S571 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2328
+[u S580 . 1 `S571 1 . 1 0 ]
+[v _LATCbits LATCbits `VES580  1 e 1 @270 ]
+"2373
+[v _LATE LATE `VEuc  1 e 1 @272 ]
+"2666
+[v _BORCON BORCON `VEuc  1 e 1 @278 ]
+"3015
+[v _APFCON APFCON `VEuc  1 e 1 @285 ]
+"3071
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3129
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3696
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3766
+[v _WPUE WPUE `VEuc  1 e 1 @528 ]
+"5732
+[v _TMR4 TMR4 `VEuc  1 e 1 @1045 ]
+"5752
+[v _PR4 PR4 `VEuc  1 e 1 @1046 ]
+"5772
+[v _T4CON T4CON `VEuc  1 e 1 @1047 ]
+[s S610 . 1 `uc 1 T4CKPS0 1 0 :1:0 
+`uc 1 T4CKPS1 1 0 :1:1 
+`uc 1 TMR4ON 1 0 :1:2 
+`uc 1 T4OUTPS0 1 0 :1:3 
+`uc 1 T4OUTPS1 1 0 :1:4 
+`uc 1 T4OUTPS2 1 0 :1:5 
+`uc 1 T4OUTPS3 1 0 :1:6 
+]
+"5793
+[s S618 . 1 `uc 1 T4CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T4OUTPS 1 0 :4:3 
+]
+[u S622 . 1 `S610 1 . 1 0 `S618 1 . 1 0 ]
+[v _T4CONbits T4CONbits `VES622  1 e 1 @1047 ]
+"8074
+[v _PLLR PLLR `VEb  1 e 0 @1238 ]
+"14 D:\yiming\00work\TY1500_U3_V10.X\LED.c
+[v _turn_1ms_cnt turn_1ms_cnt `us  1 e 2 0 ]
+"15
+[v _welcome_1ms_cnt welcome_1ms_cnt `ul  1 e 4 0 ]
+"16
+[v _tDelay_ms tDelay_ms `us  1 e 2 0 ]
+[s S467 . 1 `uc 1 TURN 1 0 :1:0 
+`uc 1 DRL 1 0 :1:1 
+`uc 1 POS 1 0 :1:2 
+`uc 1 WHITE 1 0 :1:3 
+`uc 1 TEST 1 0 :1:4 
+`uc 1 WELCOME 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+"17
+[u S476 . 1 `S467 1 . 1 0 `uc 1 Byte 1 0 ]
+[v _ORB ORB `S476  1 e 1 0 ]
+"18
+[v _f1ms f1ms `a  1 e 1 0 ]
+"20
+[v _eWelcome_step eWelcome_step `E3112  1 e 1 0 ]
+"21
+[v _fWelcome_light fWelcome_light `a  1 e 1 0 ]
+"22
+[v _fWelcome_light_disable fWelcome_light_disable `a  1 e 1 0 ]
+"24
+[v _fturn_state fturn_state `a  1 e 1 0 ]
+"25
+[v _fturn_light_disable fturn_light_disable `a  1 e 1 0 ]
+"26
+[v _turn_off_cnt turn_off_cnt `us  1 e 2 0 ]
+"27
+[v _eTurn_step eTurn_step `E3102  1 e 1 0 ]
+"28
+[v _turn_fall_edge_cnt turn_fall_edge_cnt `uc  1 e 1 0 ]
+"29
+[v _fturn_off_600ms fturn_off_600ms `a  1 e 1 0 ]
+"31
+[v _fPOS fPOS `a  1 e 1 0 ]
+"58 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"59
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr2.c
+[v _TMR2_InterruptHandler TMR2_InterruptHandler `*.37(v  1 e 2 0 ]
+"58 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr4.c
+[v _TMR4_InterruptHandler TMR4_InterruptHandler `*.37(v  1 e 2 0 ]
+"84 D:\yiming\00work\TY1500_U3_V10.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"106
+} 0
+"34 D:\yiming\00work\TY1500_U3_V10.X\LED.c
+[v _clear_no_call_warning_message clear_no_call_warning_message `(v  1 e 1 0 ]
+{
+"60
+} 0
+"109 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr4.c
+[v _TMR4_WriteTimer TMR4_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR4_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR4_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+"112
+[v TMR4_WriteTimer@timerVal timerVal `uc  1 a 1 1 ]
+"113
+} 0
+"94
+[v _TMR4_StopTimer TMR4_StopTimer `(v  1 e 1 0 ]
+{
+"98
+} 0
+"88
+[v _TMR4_StartTimer TMR4_StartTimer `(v  1 e 1 0 ]
+{
+"92
+} 0
+"100
+[v _TMR4_ReadTimer TMR4_ReadTimer `(uc  1 e 1 0 ]
+{
+"107
+} 0
+"115
+[v _TMR4_LoadPeriodRegister TMR4_LoadPeriodRegister `(v  1 e 1 0 ]
+{
+[v TMR4_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+[v TMR4_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+"117
+[v TMR4_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 1 ]
+"118
+} 0
+"108 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr2.c
+[v _TMR2_WriteTimer TMR2_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+"111
+[v TMR2_WriteTimer@timerVal timerVal `uc  1 a 1 1 ]
+"112
+} 0
+"93
+[v _TMR2_StopTimer TMR2_StopTimer `(v  1 e 1 0 ]
+{
+"97
+} 0
+"87
+[v _TMR2_StartTimer TMR2_StartTimer `(v  1 e 1 0 ]
+{
+"91
+} 0
+"99
+[v _TMR2_ReadTimer TMR2_ReadTimer `(uc  1 e 1 0 ]
+{
+"106
+} 0
+"114
+[v _TMR2_LoadPeriodRegister TMR2_LoadPeriodRegister `(v  1 e 1 0 ]
+{
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 wreg ]
+"116
+[v TMR2_LoadPeriodRegister@periodVal periodVal `uc  1 a 1 1 ]
+"117
+} 0
+"96 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr0.c
+[v _TMR0_WriteTimer TMR0_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 wreg ]
+"99
+[v TMR0_WriteTimer@timerVal timerVal `uc  1 a 1 1 ]
+"100
+} 0
+"102
+[v _TMR0_Reload TMR0_Reload `(v  1 e 1 0 ]
+{
+"106
+} 0
+"87
+[v _TMR0_ReadTimer TMR0_ReadTimer `(uc  1 e 1 0 ]
+{
+"94
+} 0
+"99 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_IOC PIN_MANAGER_IOC `(v  1 e 1 0 ]
+{
+"101
+} 0
+"125 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr0.c
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 1 ]
+"127
+} 0
+"50 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"75
+[v _WDT_Initialize WDT_Initialize `(v  1 e 1 0 ]
+{
+"79
+} 0
+"64 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr4.c
+[v _TMR4_Initialize TMR4_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"133
+[v _TMR4_SetInterruptHandler TMR4_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR4_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 1 ]
+"135
+} 0
+"64 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr2.c
+[v _TMR2_Initialize TMR2_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"132
+[v _TMR2_SetInterruptHandler TMR2_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR2_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 1 ]
+"134
+} 0
+"64 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"55 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"61 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"73
+} 0
+"753 D:\yiming\00work\TY1500_U3_V10.X\LED.c
+[v _LED_main LED_main `(v  1 e 1 0 ]
+{
+"793
+} 0
+"92
+[v _turn_signals_state_update turn_signals_state_update `(v  1 e 1 0 ]
+{
+"115
+} 0
+"539
+[v _turn_on_turn_signals turn_on_turn_signals `(v  1 e 1 0 ]
+{
+"612
+} 0
+"63
+[v _debounce_IO debounce_IO `(v  1 e 1 0 ]
+{
+"65
+[v debounce_IO@temp temp `uc  1 a 1 1 ]
+[s S467 . 1 `uc 1 TURN 1 0 :1:0 
+`uc 1 DRL 1 0 :1:1 
+`uc 1 POS 1 0 :1:2 
+`uc 1 WHITE 1 0 :1:3 
+`uc 1 TEST 1 0 :1:4 
+`uc 1 WELCOME 1 0 :1:5 
+`uc 1 b6 1 0 :1:6 
+`uc 1 b7 1 0 :1:7 
+]
+"64
+[u S476 . 1 `S467 1 . 1 0 `uc 1 Byte 1 0 ]
+[v debounce_IO@TRB TRB `S476  1 s 1 TRB ]
+"89
+} 0
+"208
+[v _is_white is_white `(a  1 e 1 0 ]
+{
+} 0
+"209
+[v _is_turn_signals is_turn_signals `(a  1 e 1 0 ]
+{
+} 0
+"210
+[v _is_test is_test `(a  1 e 1 0 ]
+{
+} 0
+"213
+[v _is_WELCOME is_WELCOME `(a  1 e 1 0 ]
+{
+} 0
+"212
+[v _is_POS is_POS `(a  1 e 1 0 ]
+{
+} 0
+"211
+[v _is_DRL is_DRL `(a  1 e 1 0 ]
+{
+} 0
+"117
+[v _check_welcome_signal check_welcome_signal `(v  1 e 1 0 ]
+{
+"125
+} 0
+"615
+[v _check_welcome_light check_welcome_light `(v  1 e 1 0 ]
+{
+"750
+} 0
+"260
+[v _yellow_to_white yellow_to_white `(v  1 e 1 0 ]
+{
+"264
+[v yellow_to_white@ii ii `uc  1 a 1 4 ]
+"261
+[v yellow_to_white@pwm_idx pwm_idx `c  1 a 1 5 ]
+"274
+} 0
+"128
+[v _all_yellow_led_turn_on all_yellow_led_turn_on `(v  1 e 1 0 ]
+{
+"131
+} 0
+"134
+[v _all_yellow_led_turn_off all_yellow_led_turn_off `(v  1 e 1 0 ]
+{
+"137
+} 0
+"389
+[v _yellow_seg7_forward yellow_seg7_forward `(v  1 e 1 0 ]
+{
+"393
+[v yellow_seg7_forward@ii ii `uc  1 a 1 4 ]
+"390
+[v yellow_seg7_forward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"404
+} 0
+"506
+[v _yellow_seg7_backward yellow_seg7_backward `(v  1 e 1 0 ]
+{
+"510
+[v yellow_seg7_backward@ii ii `uc  1 a 1 4 ]
+"507
+[v yellow_seg7_backward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"518
+} 0
+"374
+[v _yellow_seg6_forward yellow_seg6_forward `(v  1 e 1 0 ]
+{
+"378
+[v yellow_seg6_forward@ii ii `uc  1 a 1 4 ]
+"375
+[v yellow_seg6_forward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"386
+} 0
+"491
+[v _yellow_seg6_backward yellow_seg6_backward `(v  1 e 1 0 ]
+{
+"495
+[v yellow_seg6_backward@ii ii `uc  1 a 1 4 ]
+"492
+[v yellow_seg6_backward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"503
+} 0
+"356
+[v _yellow_seg5_forward yellow_seg5_forward `(v  1 e 1 0 ]
+{
+"360
+[v yellow_seg5_forward@ii ii `uc  1 a 1 4 ]
+"357
+[v yellow_seg5_forward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"371
+} 0
+"473
+[v _yellow_seg5_backward yellow_seg5_backward `(v  1 e 1 0 ]
+{
+"477
+[v yellow_seg5_backward@ii ii `uc  1 a 1 4 ]
+"474
+[v yellow_seg5_backward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"488
+} 0
+"341
+[v _yellow_seg4_forward yellow_seg4_forward `(v  1 e 1 0 ]
+{
+"345
+[v yellow_seg4_forward@ii ii `uc  1 a 1 4 ]
+"342
+[v yellow_seg4_forward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"353
+} 0
+"458
+[v _yellow_seg4_backward yellow_seg4_backward `(v  1 e 1 0 ]
+{
+"462
+[v yellow_seg4_backward@ii ii `uc  1 a 1 4 ]
+"459
+[v yellow_seg4_backward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"470
+} 0
+"323
+[v _yellow_seg3_forward yellow_seg3_forward `(v  1 e 1 0 ]
+{
+"327
+[v yellow_seg3_forward@ii ii `uc  1 a 1 4 ]
+"324
+[v yellow_seg3_forward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"338
+} 0
+"440
+[v _yellow_seg3_backward yellow_seg3_backward `(v  1 e 1 0 ]
+{
+"444
+[v yellow_seg3_backward@ii ii `uc  1 a 1 4 ]
+"441
+[v yellow_seg3_backward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"455
+} 0
+"307
+[v _yellow_seg2_forward yellow_seg2_forward `(v  1 e 1 0 ]
+{
+"312
+[v yellow_seg2_forward@ii ii `uc  1 a 1 4 ]
+"308
+[v yellow_seg2_forward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"320
+} 0
+"425
+[v _yellow_seg2_backward yellow_seg2_backward `(v  1 e 1 0 ]
+{
+"429
+[v yellow_seg2_backward@ii ii `uc  1 a 1 4 ]
+"426
+[v yellow_seg2_backward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"437
+} 0
+"291
+[v _yellow_seg1_forward yellow_seg1_forward `(v  1 e 1 0 ]
+{
+"296
+[v yellow_seg1_forward@ii ii `uc  1 a 1 4 ]
+"292
+[v yellow_seg1_forward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"304
+} 0
+"407
+[v _yellow_seg1_backward yellow_seg1_backward `(v  1 e 1 0 ]
+{
+"411
+[v yellow_seg1_backward@ii ii `uc  1 a 1 4 ]
+"408
+[v yellow_seg1_backward@pwm_idx pwm_idx `c  1 a 1 5 ]
+"422
+} 0
+"277
+[v _white_fad_out white_fad_out `(v  1 e 1 0 ]
+{
+"281
+[v white_fad_out@ii ii `uc  1 a 1 4 ]
+"278
+[v white_fad_out@pwm_idx pwm_idx `c  1 a 1 5 ]
+"288
+} 0
+"244
+[v _delay_us delay_us `(v  1 e 1 0 ]
+{
+[v delay_us@us us `c  1 a 1 wreg ]
+[v delay_us@us us `c  1 a 1 wreg ]
+[v delay_us@us us `c  1 a 1 2 ]
+"247
+} 0
+"140
+[v _all_white_led_turn_on all_white_led_turn_on `(v  1 e 1 0 ]
+{
+} 0
+"141
+[v _all_white_led_turn_off all_white_led_turn_off `(v  1 e 1 0 ]
+{
+} 0
+"250
+[v _delay_ms delay_ms `(v  1 e 1 0 ]
+{
+[v delay_ms@ms ms `us  1 p 2 1 ]
+"257
+} 0
+"198
+[v _all_led_off all_led_off `(v  1 e 1 0 ]
+{
+"205
+} 0
+"521
+[v _check_test_mode check_test_mode `(v  1 e 1 0 ]
+{
+"527
+} 0
+"530
+[v _check_POS_P2 check_POS_P2 `(v  1 e 1 0 ]
+{
+"536
+} 0
+"144
+[v _P2_on P2_on `(v  1 e 1 0 ]
+{
+} 0
+"145
+[v _P2_off P2_off `(v  1 e 1 0 ]
+{
+} 0
+"177
+[v _POS_on POS_on `(v  1 e 1 0 ]
+{
+"195
+} 0
+"147
+[v _PWM_POS PWM_POS `(v  1 e 1 0 ]
+{
+"152
+} 0
+"155
+[v _DRL_on DRL_on `(v  1 e 1 0 ]
+{
+"174
+} 0
+"52 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"78
+} 0
+"120 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr4.c
+[v _TMR4_ISR TMR4_ISR `(v  1 e 1 0 ]
+{
+"130
+} 0
+"137
+[v _TMR4_DefaultInterruptHandler TMR4_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"140
+} 0
+"233 D:\yiming\00work\TY1500_U3_V10.X\LED.c
+[v _tmr4_320us_even tmr4_320us_even `(v  1 e 1 0 ]
+{
+"241
+} 0
+"119 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr2.c
+[v _TMR2_ISR TMR2_ISR `(v  1 e 1 0 ]
+{
+"129
+} 0
+"136
+[v _TMR2_DefaultInterruptHandler TMR2_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"139
+} 0
+"222 D:\yiming\00work\TY1500_U3_V10.X\LED.c
+[v _tmr2_4ms_even tmr2_4ms_even `(v  1 e 1 0 ]
+{
+"231
+} 0
+"108 D:\yiming\00work\TY1500_U3_V10.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"122
+} 0
+"216 D:\yiming\00work\TY1500_U3_V10.X\LED.c
+[v _tmr0_10ms_even tmr0_10ms_even `(v  1 e 1 0 ]
+{
+"220
+} 0

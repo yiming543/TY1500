@@ -1,0 +1,70 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : [],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-f6f22219c74102c3da70.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TY1500_default_project",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TY1500_default_default_XC8_compile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TY1500_default_default_XC8_compile-6f315a006bdedffac7fa.json",
+					"name" : "TY1500_default_default_XC8_compile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TY1500_default_image_9Cl9CeCE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TY1500_default_image_9Cl9CeCE-3373e3863cec239a3c33.json",
+					"name" : "TY1500_default_image_9Cl9CeCE",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/yiming/04github/TY1500/TY1500_U3_V09.X/_build/TY1500/default",
+		"source" : "D:/yiming/04github/TY1500/TY1500_U3_V09.X/cmake/TY1500/default"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	}
+}
